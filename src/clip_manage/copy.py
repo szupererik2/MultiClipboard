@@ -1,7 +1,5 @@
 import pyperclip
+import clipboard
 
-def copy_from_clip():
-    pass
-
-if __name__ == "__main__":
-    print()
+def copy_from_clip(c, key):
+   c.add_data(key, pyperclip.paste())
