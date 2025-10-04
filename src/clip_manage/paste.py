@@ -1,5 +1,4 @@
 import pyperclip
-import clipboard
 import keyboard
 
 def paste_from_clip(c, key):

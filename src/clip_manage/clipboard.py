@@ -5,6 +5,7 @@ class clip:
         self.data = defaultdict(str)
 
     def add_data(self, key, text):
+        print(f"\"{text}\" added to {key} slot")
         self.data[key] = text
     
     def req_data(self, key):
