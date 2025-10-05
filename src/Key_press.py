@@ -10,5 +10,5 @@ def detect_key_press():
         keyboard.add_hotkey(f"ctrl+f{i}", lambda i=i: copy_from_clip(c, i))
         keyboard.add_hotkey(f"shift+f{i}", lambda i=i: paste_from_clip(c, i))
 
-    print("Press ESC to quit")
-    keyboard.wait("esc")
+    print("Press SHIFT + ESC to quit")
+    keyboard.wait("shift+esc")
